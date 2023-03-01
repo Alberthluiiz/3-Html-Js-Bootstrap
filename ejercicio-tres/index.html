@@ -1,0 +1,217 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bootstrap demo</title>
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css">
+</head>
+
+<body style="position: relative;" data-bs-spy="scroll" data-bs-target="#navbar-example3" data-bs-offset="10"
+    tabindex="0">
+    <!-- Navbar - Menu de Navegación -->
+    <nav id="navbar-example3" class="navbar navbar-expand-lg navbar-dark fixed-top" style="background: #00334e;">
+        <div class="container">
+            <a href="/" class="navbar-brand">
+                <span class="align-middle"> Realizado con Bootstrap - Sobre Nosotros - ITB </span>
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                    <li class="nav-item"><a href="#inicio" class="nav-link" aria-current="page"> Inicio </a></li>
+                    <li class="nav-item"><a href="#nosotros" class="nav-link"> Nosotros </a></li>
+                    <li class="nav-item"><a href="#comentarios" class="nav-link"> Comentarios </a></li>
+                    <li class="nav-item"><a href="#suscribete" class="nav-link"> Suscríbete </a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <!-- Navbar - Menu de Navegación -->
+
+    <!-- Carousel - Inicio -->
+    <div id="inicio" class="carousel slide carousel-fade">
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img src="img/carousel1.jpg" class="d-block w-100" alt="...">
+            </div>
+            <div class="carousel-item">
+                <img src="img/carousel2.jpg" class="d-block w-100" alt="...">
+            </div>
+            <div class="carousel-item">
+                <img src="img/carousel3.jpg" class="d-block w-100" alt="...">
+            </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+        </button>
+    </div>
+    <!-- Carousel - Inicio -->
+
+    <!-- Nosotros -->
+    <div id="nosotros" class="row aling-items-center justify-content-center g-0 position-relative"
+        style="background: #00334e;">
+        <h2 class="text-center mb-5 display-4" style="color: white; padding-top: 50px;"> Nosotros </h2>
+        <div class="row aling-items-center justify-content-center">
+            <img src="img/nosotroslogoitbblanco.png" alt="..." class="w-50" style="padding-bottom: 50px;">
+        </div>
+
+        <!-- Mision -->
+        <div class="row align-items-center col-md-6 p-40 ps-md-0">
+            <h5 class="text-center mb-5 display-4" style="color: white;"> Misión </h5>
+            <p class="text-center mb-5 display-8" style="color: white;">
+                Promover la formación integral y permanente de profesionales técnicos y tecnológicos a través del
+                desarrollo de las actividades científicas y sociales que conduzca a una sociedad ecuatoriana más justa y
+                equitativa.
+            </p>
+        </div>
+        <!-- Vision -->
+        <div class="row align-items-center col-md-6 p-40 ps-md-0">
+            <h5 class="text-center mb-5 display-4" style="color: white;"> Visión </h5>
+            <p class="text-center mb-5 display-8" style="color: white;">
+                Ser reconocidos como una Institución de Educación Superior con capacidad de vincularse con todos los
+                sectores de la sociedad mediante programas de consultoría, asesoría, investigación, capacitación y
+                desarrollo, formando profesionales emprendedores y con profunda vocación de servicio.
+            </p>
+        </div>
+    </div>
+    <!-- Nosotros -->
+
+    <!-- Comentarios -->
+    <section id="comentarios" class="py-5 bg-light">
+        <div class="container">
+            <h2 class="text-center mb-5 display-4" style="padding-top: 35px;">Comentarios</h2>
+            <p class="lead mb-5 text-center">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Consectetur
+                soluta, maxime quis iure rem inventore. Eum distinctio id, suscipit
+                accusamus nihil inventore doloremque. Dolor voluptatibus quia quo
+                laboriosam reiciendis explicabo!
+            </p>
+
+            <div class="row">
+                <div class="col-12 col-md-6 col-lg-4 col-xl-3 mb-5 mb-md-0">
+                    <img src="img/comentarios.png" alt="" class="img-fluid rounded" />
+                </div>
+                <div class="col-12 col-md-6 col-lg-8 col-xl-9">
+                    <div class="accordion" id="accordionExample">
+                        <div class="accordion-item">
+                            <h2 class="accordion-header" id="headingOne">
+                                <button class="accordion-button" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne"
+                                    style="color: #ff6319;">
+                                    Comentario #1
+                                </button>
+                            </h2>
+                            <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne"
+                                data-bs-parent="#accordionExample">
+                                <div class="accordion-body">
+                                    <strong>This is the first item's accordion body.</strong> It
+                                    is hidden by default, until the collapse plugin adds the
+                                    appropriate classes that we use to style each element. These
+                                    classes control the overall appearance, as well as the
+                                    showing and hiding via CSS transitions. You can modify any
+                                    of this with custom CSS or overriding our default variables.
+                                </div>
+                            </div>
+                        </div>
+                        <div class="accordion-item">
+                            <h2 class="accordion-header" id="headingTwo">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo"
+                                    style="color: #ff6319;">
+                                    Comentario #2
+                                </button>
+                            </h2>
+                            <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo"
+                                data-bs-parent="#accordionExample">
+                                <div class="accordion-body">
+                                    <strong>This is the second item's accordion body.</strong>
+                                    It is hidden by default, until the collapse plugin adds the
+                                    appropriate classes that we use to style each element. These
+                                    classes control the overall appearance, as well as the
+                                    showing and hiding via CSS transitions. You can modify any
+                                    of this with custom CSS or overriding our default variables.
+                                </div>
+                            </div>
+                        </div>
+                        <div class="accordion-item">
+                            <h2 class="accordion-header" id="headingThree">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree"
+                                    style="color: #ff6319;">
+                                    Comentario #3
+                                </button>
+                            </h2>
+                            <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree"
+                                data-bs-parent="#accordionExample">
+                                <div class="accordion-body">
+                                    <strong>This is the third item's accordion body.</strong> It
+                                    is hidden by default, until the collapse plugin adds the
+                                    appropriate classes that we use to style each element. These
+                                    classes control the overall appearance, as well as the
+                                    showing and hiding via CSS transitions. You can modify any
+                                    of this with custom CSS or overriding our default variables.
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Comentarios -->
+
+    <!-- Suscríbete -->
+    <section  id="suscribete" class="text-light" style="background: #00334e;">
+        <div class="container">
+            <h2 class="text-center mb-5 display-4" style="padding-top: 35px;">Suscríbete</h2>
+            <p class="lead text-center pb-5">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis
+                eveniet repellat temporibus iste excepturi, eaque totam iusto
+                provident expedita quos voluptate exercitationem corrupti.
+                Necessitatibus aspernatur expedita ratione culpa quod voluptate.
+            </p>
+
+            <div class="row aling-items-center justify-content-center text-dark text-center">
+                <div class="col-12 col-md-4 mb-5">
+                    <div class="card">
+                        <div class="card-body" style="padding: 0;">
+                            <h2 class="my-5">Suscripcion</h2>
+                            <h2 class="my-5">$125</h2>
+                        </div>
+                        <ul class="list-group list-group-flush">
+                            <li class="list-group-item">Informacion #1</li>
+                            <li class="list-group-item">Informacion #2</li>
+                            <li class="list-group-item">Informacion #3</li>
+                            <li class="list-group-item">Informacion #4</li>
+                            <li class="list-group-item">Informacion #5</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Suscríbete -->
+
+    <!-- Footer -->
+    <footer class="container-fluid py-1 text-center text-light" style="background: #376a86;">
+        <p style="font-size: 35px;"> Desarrollado por Luis Guillen </p>
+    </footer>
+    <!-- Footer -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous">
+        </script>
+</body>
+</html>
